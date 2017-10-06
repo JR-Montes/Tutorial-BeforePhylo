@@ -1,14 +1,11 @@
 # Tutorial-BeforePhylo
 Este repositorio contiene un tutorial en español para utilizar el script de perl BeforePhylo para procesar múltiples muestras
 
-
-# Tutorial BeforePhylo
-
 By José Rubén Montes Montiel
 
 Octubre 2017
 
-
+-
 ### Introducción
 BeforePhylo es un script de Perl  para manipular alineamientos de múltiples secuencias pra recontrucción de análisis filogenéticos. Es script está diseñado la reducir el muestreo y corre en plataformas de linux, ubuntu y mackentosh.
 
