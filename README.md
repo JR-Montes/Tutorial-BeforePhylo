@@ -9,7 +9,7 @@ Octubre 2017
 ### Introducción
 BeforePhylo es un script de Perl  para manipular alineamientos de múltiples secuencias pra recontrucción de análisis filogenéticos. Es script está diseñado la reducir el muestreo y corre en plataformas de linux, ubuntu y mackentosh.
 
-Decargar repositori ode github:
+Decargar repositorio de github:
 
 [BeforePhylo](https://github.com/qiyunzhu/BeforePhylo)
 
