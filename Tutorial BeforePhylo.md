@@ -5,18 +5,32 @@ By José Rubén Montes Montiel
 Octubre 2017
 
 
-### IntroducciónBeforePhylo es un script de Perl  para manipular alineamientos de múltiples secuencias pra recontrucción de análisis filogenéticos. Es script está diseñado la reducir el muestreo y corre en plataformas de linux, ubuntu y mackentosh.
-Decargar repositori ode github:
+### Introducción
+BeforePhylo es un script de Perl  para manipular alineamientos de múltiples secuencias pra recontrucción de análisis filogenéticos. Es script está diseñado la reducir el muestreo y corre en plataformas de linux, ubuntu y mackentosh.
+
+Decargar repositori ode github:
 
 [BeforePhylo](https://github.com/qiyunzhu/BeforePhylo)
 
 ### Crear un directorio de trabajo
-Debes crear un nuevo directorio de trabajo donde vas a clonar y/o guardar el repositorio de [BeforePhylo](https://github.com/qiyunzhu/BeforePhylo), teclea:`mkdir BeforePhylo`Para moverte a este directorio, teclea:`cd BeforePhylo`### Clonar o guardar repositorio de datos en tu directorio `BeforePhylo`
+
+Debes crear un nuevo directorio de trabajo donde vas a clonar y/o guardar el repositorio de [BeforePhylo](https://github.com/qiyunzhu/BeforePhylo), teclea:
+
+`mkdir BeforePhylo`
+
+Para moverte a este directorio, teclea:
+
+`cd BeforePhylo`
+
+
+### Clonar o guardar repositorio de datos en tu directorio `BeforePhylo`
 
 Entra a tu directorio `BeforePhylo`y utiliza la siguiente línea de comando para descargar BeforePhylo
 
 `wget https://github.com/qiyunzhu/BeforePhylo.git`
-### Exportar secuencias de genes en formato `.fasta` desde Geneious.
+
+
+### Exportar secuencias de genes en formato `.fasta` desde Geneious.
 
 Primero slecciona la lista de genes desde Geneious y exporta los genes con la opción "_export bacht_" que se encuentra en la opción "_Archivo_" de la pestaña de herramientas y guarda los genes en formato "_FASTA sequences/alignment_" 
 
@@ -35,13 +49,30 @@ Para utilzar el escript de perl necesitas un archivo .txt con la lista de ejempl
 
 nano taxa_list.txt
 
-```arisAL04bungAL03cemdDRD18devoDSG721gregDSG1386nelsDSG1095picchihDSG1070pincDSG440pineAL06strfRG539thunAL03
 ```
-Guardar el archivo y cierra el porgrama nano con los siguientes comandos en orden consecutivo:`ctrl o` y luego `ctrl x`### Ejecutar el script de perl.
+arisAL04
+bungAL03
+cemdDRD18
+devoDSG721
+gregDSG1386
+nelsDSG1095
+picchihDSG1070
+pincDSG440
+pineAL06
+strfRG539
+thunAL03
+```
+
+Guardar el archivo y cierra el porgrama nano con los siguientes comandos en orden consecutivo:
+
+`ctrl o` y luego `ctrl x`
+
+
+### Ejecutar el script de perl.
 
 Para ejecutar el script de perl BeforePhylo debes contar con el script ya instalado, un archivo con los ejemplares en formato .txt y la lista de genes en formato .fasta. Ahora ejecuta el escript con la siguinte línea de comandos desde tu directorio:
 
-`perl BeforePhylo.pl -filter=taxa_list.txt -trim *.fasta -output=phylip`
+`perl ../BeforePhylo.pl -filter=taxa_list.txt -trim *.fasta -output=phylip`
 
 
 **NOTA**: En esta ocasión necesitamos que los archivos se guarden en formato `phylip` pero puedes gurdar los archivos en formato `nexus`y entonces debes cambiar el archivo de salida por `-output=nexus` 
