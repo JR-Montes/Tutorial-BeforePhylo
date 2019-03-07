@@ -1,8 +1,3 @@
-## Tutorial BeforePhylo
-
-By José Rubén Montes Montiel
-
-Octubre 2017
 
 
 ### Introducción
