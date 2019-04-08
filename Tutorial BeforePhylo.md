@@ -82,6 +82,10 @@ El formato `tar`funciona como un programa para comprimir y descomprimir archivos
 
 `tar -zcvf Cembroides_t21_n304.nex.tar.gz *.nex`
 
+Descomprimir
+
+`tar -xzvf archivo.tar.gz`
+
 ### Crear nuevo directorio para archivos en formato `.phy`
 
 Ahora debes crear un directorio para guardar los archivos que has generado, teclea:
