@@ -100,4 +100,12 @@ Mueve los archivos al nuevo directorio con la siguinet línea de comandos:
 
 `rm -r *.fasta`
 
+### Crear archivo de particiones para RAxML
+
+`perl BeforePhylo.pl -trim -filter=taxa_list.txt -conc=raxml *.fasta`
+
+**NOTA**: En esta ocasión necesitamos que los archivos se guarden para correr `raxml` pero puedes correr los archivos para ejecutar los archivos de entrada para `mrbayes` y `beast` 
+
+
+
 
